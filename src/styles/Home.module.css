@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.connectWallet {
+  cursor: pointer;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+
+.connectWallet button {
+  padding: 8px;
+}
+
+.content {
+  width: 100%;
+}
+
+.nftRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 8px 0;
+}
+
+.nftRow img,
+.nftRow video {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.no {
+  flex: 1
+}
+
+.avatar {
+  flex: 2
+}
+
+.title {
+  flex: 4
+}
+
+.balance {
+  flex: 1
+}
+
+.type {
+  flex: 2
+}
+
+.saveButton {
+  cursor: pointer;
+  padding: 8px;
+}
